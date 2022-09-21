@@ -49,7 +49,7 @@ except URLError as e:
 # flatten data 
 # put into frames
 
-#streamlit.stop()
+#
 
 #SNOWFLAKE SECTION----------------------
 #import snowflake.connector
@@ -65,6 +65,7 @@ if streamlit.button('Get Fruit Load List'):
            my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
            my_data_rows = get_fruit_load_list()
            streamlit.dataframe(my_data_rows)
+streamlit.stop()
 
                 #my_cur = my_cnx.cursor()
 
