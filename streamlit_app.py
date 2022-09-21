@@ -49,7 +49,7 @@ except URLError as e:
 # flatten data 
 # put into frames
 
-#streamlit.stop()
+streamlit.stop()
 
 #SNOWFLAKE SECTION----------------------
 #import snowflake.connector
