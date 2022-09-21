@@ -46,4 +46,3 @@ streamlit.dataframe(my_data_rows)
 
 #allow user to add a fruit to the list 
 
-add_my_fruit = 
